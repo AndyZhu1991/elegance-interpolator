@@ -1,4 +1,4 @@
-package android.zhu.andy.eleganceinterpolator;
+package android.zhu.andy.eleganceinterpolator.demo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
