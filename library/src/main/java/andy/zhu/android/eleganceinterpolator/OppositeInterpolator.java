@@ -3,19 +3,19 @@ package andy.zhu.android.eleganceinterpolator;
 import android.view.animation.Interpolator;
 
 /**
- * Created by zhujinchang on 2017/4/13.
+ * Created by Andy.Zhu on 2017/4/25.
  */
 
-public class ReversedInterpolator implements Interpolator {
+public class OppositeInterpolator implements Interpolator {
 
     private Interpolator mOriginInterpolator;
 
-    public ReversedInterpolator(Interpolator originInterpolator) {
+    public OppositeInterpolator(Interpolator originInterpolator) {
         mOriginInterpolator = originInterpolator;
     }
 
     @Override
     public float getInterpolation(float input) {
-        return mOriginInterpolator.getInterpolation(1 - input);
+        return 1 - (mOriginInterpolator.getInterpolation(1 - input));
     }
 }
