@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="android.zhu.andy.eleganceinterpolator.demo">
+          package="andy.zhu.android.eleganceinterpolator.demo">
 
     <application
         android:allowBackup="true"

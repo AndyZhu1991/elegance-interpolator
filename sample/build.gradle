@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId 'android.zhu.andy.eleganceinterpolator.demo'
+        applicationId 'andy.zhu.android.eleganceinterpolator.demo'
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
